@@ -688,6 +688,7 @@ span {
   max-width: 30%;
   margin: 0 auto;
   margin-bottom: 60px;
+  display: none;
 }
 .clients__wrapper {
   display: -webkit-box;
