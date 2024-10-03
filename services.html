@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Услуги и цены</title>   
+</head>
+<body>
+    <div class="body__container">
+        <div class="modal">
+            <div class="modal__box">
+                <div class="modal__box-header">
+                    <div class="modal__title title">Оставить заявку</div>
+                    <div class="modal__close"></div>            
+                </div>               
+                <form action="#" class="modal__form" id="modal__form">
+                    <div>
+                        <input type="name" name="name" class="modal__input" id="modal__name" placeholder="Ваше имя">
+                    </div>
+                    <div>
+                        <input type="phone" name="phone" class="modal__input" id="modal__phone" placeholder="Ваше Телефон">
+                    </div>
+                    <div>
+                        <input type="email" name="email" class="modal__input" id="modal__email" placeholder="Ваш E-mail">
+                    </div>
+                    <div class="modal__checkbox">
+                        <input type="checkbox" class="modal__checkbox-item">
+                        <label for="" class="modal__checkbox-text">Нажимая кнопку отправить я соглашаюсь с условиями <a href="policy.html">Политики конфиденциальности</a></label>
+                    </div>
+                    <button class="btn modal__btn" type="submit">Оставить заявку</button>
+                </form>
+            </div>
+        </div>
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#header" class="header__logo">
+                        <div class="header__logo-img">
+                            <img src="icons/logo.svg" alt="логотип сайта">
+                        </div>
+                        <div class="header__logo-info">Юридическая консультация</div>
+                    </a>
+                    <div class="header__box">
+                        <div class="header__connection">
+                            <div class="header__connection-items">
+                                <a href="https://vk.com/nvlaw" class="header__connection-item">
+                                    <div class="header__connection-icon">
+                                        <img src="icons/vk.svg" alt="логотип ВК">
+                                    </div>
+                                    <span class="header__connection-info">Мы в Вконтакте</span>
+                                </a>
+                            </div>
+                            <div class="header__connection-items">
+                                <a href="https://yandex.ru/maps/org/yuridicheskaya_pomoshch/234571748160/?ll=76.574434%2C60.930905&z=17" class="header__connection-item">
+                                    <div class="header__connection-icon">
+                                        <img src="icons/location.svg" alt="Геолокация">
+                                    </div>
+                                    <span class="header__connection-info">Адрес: г. Нижневартовск, ул. Мусы Джалиля 9</span>
+                                </a>
+                            </div>
+                            <div class="header__connection-items">
+                                <a href="tel:+79821592105" class="header__connection-item">
+                                    <div class="header__connection-icon">
+                                        <img src="icons/phone.svg" alt="Телефон">
+                                    </div>
+                                    <span class="header__connection-info">8 982 159 21 05</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hamburger">
+                            <span class="hamburger__item"></span>
+                            <span class="hamburger__item"></span>
+                            <span class="hamburger__item"></span>
+                        </div>
+                        <nav class="header__navigation">
+                            <ul class="header__lists">
+                                <li class="header__lists-item"><a href="about.html" target="_blank" class="header__lists-btn">О компании</a></li>
+                                <li class="header__lists-item"><a href="services.html" target="_blank" class="header__lists-btn">Услуги и цены</a></li>
+                                <li class="header__lists-item"><a href="examples.html" class="header__lists-btn">Разъяснение правовых вопросов</a></li>
+                                <li class="header__lists-item"><a href="contacts.html" class="header__lists-btn">Контакты</a></li>
+                            </ul>                         
+                        </nav>
+                    </div>                
+                </div>
+            </div>           
+        </header>
+        <main>
+            <section class="wow animate__animated animate__fadeInUp services">                
+                <div class="container">
+                    <a href="index.html" class="services__service">Назад на главную</a>
+                    <h1 class="services__title title">Юридические услуги</h1>
+                    <div class="services__wrapper">
+                        <div class="services__offer">
+                            <h3 class="services__subtitle">Антикризисное предложение для физических лиц</h3>
+                            <div class="services__offer-yellow">
+                                <ul class="services__offer-list">
+                                    <li class="services__offer-item">Устная консультация юрисконсульта – <b>бесплатно</b> </li>
+                                    <li class="services__offer-item">Устная консультация юрисконсульта по банкротству – <b>бесплатно</b> </li>
+                                    <li class="services__offer-item">Анализ документов (не более 10 листов) – от 1 000 руб. </li>
+                                    <li class="services__offer-item">Составление искового заявления (до 4-х листов) – от 2000 руб. </li>
+                                    <li class="services__offer-item">Представление интересов в Суде – от 4000 руб. </li>
+                                </ul>
+                            </div>
+                            <button class="btn services__btn">Бесплатная консультация</button>
+                            <div class="services__offer-help">Обращайтесь за помощью, мы знаем что делать!</div>
+                        </div>
+                        <div class="services__img">
+                            <img src="img/prenup.jpg" alt="Как составляется брачный договор">
+                        </div>
+                    </div>
+                    <div class="services__box">
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Банкротство</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Банкротство юридических лиц</td>
+                                    <td class="services__table-item--price">от 30 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Банкротство физических лиц и предпринимателей</td>
+                                    <td class="services__table-item--price">от 5 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Заявление о признании банкротом</td>
+                                    <td class="services__table-item--price">от 4000 рублей</td>
+                                </tr>
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Сопровождение в деле о банкротстве юридического <br>лица на стороне кредитора</td>
+                                    <td class="services__table-item--price">от 30 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Сопровождение в деле о банкротстве физического лица (гражданина) <br> на стороне кредитора</td>
+                                    <td class="services__table-item--price">от 20 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Оспаривание торгов, сделок в процедуре банкротства</td>
+                                    <td class="services__table-item--price">от 40 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Жалобы на арбитражного управляющего</td>
+                                    <td class="services__table-item--price">от 10 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Включение в реестр требований кредиторов</td>
+                                    <td class="services__table-item--price">от 15 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 4000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в арбитражном суде</td>
+                                    <td class="services__table-item--price">от 3000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в арбитражный суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в арбитражном суде</td>
+                                    <td class="services__table-item--price">от 2000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Арбитражные споры</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Взыскание задолженности (поставка, подряд, купля-продажа, займ, дебеторка и т.п.)</td>
+                                    <td class="services__table-item--price">от 30 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Исковое заявление в арбитражный суд</td>
+                                    <td class="services__table-item--price">от 5 000 рублей</td>
+                                </tr>                                
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в арбитражном суде</td>
+                                    <td class="services__table-item--price">от 5000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление досудебной претензии</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Виндикация (истребование имущества)</td>
+                                    <td class="services__table-item--price">от 40 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Оспаривание решений государственных органов</td>
+                                    <td class="services__table-item--price">от 30 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в арбитражном суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в арбитражный суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в арбитражном суде</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Защита прав потребителей</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Взыскание через суд (поставка, подряд, купля-продажа и т.п.)</td>
+                                    <td class="services__table-item--price">от 30 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Составление досудебной претензии</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>      
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Исковое заявление в суд</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>                            
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в суде</td>
+                                    <td class="services__table-item--price">от 5000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Семейные споры</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Расторжение брака (при обоюдном согласии) через суд</td>
+                                    <td class="services__table-item--price">от 10 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Раздел имущества супругов</td>
+                                    <td class="services__table-item--price">от 40 000 рублей</td>
+                                </tr>      
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Составление иска о расторжении брака</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>                            
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в суде</td>
+                                    <td class="services__table-item--price">от 4000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление о взыскании алиментов</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление в суд</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Сопровождение добровольного раздела имущества</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Взыскание алиментов через суд</td>
+                                    <td class="services__table-item--price">от 25 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">ДТП и страхование</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Взыскание с виновника ДТП ущерба</td>
+                                    <td class="services__table-item--price">от 35 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Споры со страховой компанией по ДТП (угону)</td>
+                                    <td class="services__table-item--price">от 40 000 рублей</td>
+                                </tr>      
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Составление иска о взыскании ущерба от ДТП</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>                            
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в суде</td>
+                                    <td class="services__table-item--price">от 4000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление к страховой компании по ДТП (угону)</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление в суд</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Сопровождение в страховой компании</td>
+                                    <td class="services__table-item--price">от 5 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Жалоба финансовому омбудсмену</td>
+                                    <td class="services__table-item--price">от 5000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Наследство</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Оспаривание наследства</td>
+                                    <td class="services__table-item--price">от 60 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Устранение ошибок в документах через суд</td>
+                                    <td class="services__table-item--price">от 60 000 рублей</td>
+                                </tr>                                 
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в суде</td>
+                                    <td class="services__table-item--price">от 4000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление в суд</td>
+                                    <td class="services__table-item--price">от 5 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Автоюрист</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Взыскание с виновника ДТП ущерба</td>
+                                    <td class="services__table-item--price">от 35 000 рублейй</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Жалоба (претензия) в автосалона</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>   
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Административные дела</td>
+                                    <td class="services__table-item--price">от 20 000 рублей</td>
+                                </tr>       
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Споры по ущербу ТС</td>
+                                    <td class="services__table-item--price">от 40 000 рублей</td>
+                                </tr>   
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Составление иска о взыскании ущербаС</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>                     
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Обжалование постановлений полиции по ДТП</td>
+                                    <td class="services__table-item--price">от 4000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ведение административного дела (КоАП)</td>
+                                    <td class="services__table-item--price">от 20 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ведение дела об уезде с места ДТП</td>
+                                    <td class="services__table-item--price">от 25 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в суде</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление к причинителю вреда</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление в суд</td>
+                                    <td class="services__table-item--price">4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в суд</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Жилищное право</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Очная консультация с анализом документов</td>
+                                    <td class="services__table-item--price">от 1 500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Выселение через суд</td>
+                                    <td class="services__table-item--price">от 35 000 рублейй</td>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Снятие с регистрационного учета через суд</td>
+                                    <td class="services__table-item--price">от 35 000 рублей</td>
+                                </tr>   
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Составление иска о взыскании ущерба от залития квартиры</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>                            
+                                <!-- Должны скрываться -->
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Судебные споры по залитию/ущербу квартире</td>
+                                    <td class="services__table-item--price">от 35 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Судебные споры по незаконной перепланировке</td>
+                                    <td class="services__table-item--price">от 45 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Судебные споры по выделению /определению долей</td>
+                                    <td class="services__table-item--price">от 45 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Сопровождение сделок</td>
+                                    <td class="services__table-item--price">от 15 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление договоров аренды/купли-продажи</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Представление интересов в суде</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Составление ходатайств, заявлений, обращений</td>
+                                    <td class="services__table-item--price">3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Исковое заявление в суд</td>
+                                    <td class="services__table-item--price">от 4 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов</td>
+                                    <td class="services__table-item--price">от 2 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Ознакомление с материалами дела в суде</td>
+                                    <td class="services__table-item--price">от 3 000 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Подача документов в суд</td>
+                                    <td class="services__table-item--price">1500 рублей</td>
+                                </tr>
+                                <tr class="services__table-item--row services__table-item--show">
+                                    <td class="services__table-item--info">Заказ и получение документов в суде</td>
+                                    <td class="services__table-item--price">от 2000 рублей</td>
+                                </tr>
+                            </table>
+                            <div class="services__table-show">Показать еще</div>
+                        </div>
+
+                        <div class="services__table"> 
+                            <h4 class="services__table-title">Уголовные дела</h4>                       
+                            <table class="services__table-item">                                
+                                <tr class="services__table-item--row">
+                                    <th class="services__table-item--info">Наименование услуги</th>
+                                    <th class="services__table-item--price">Стоимость</th>
+                                </tr>
+                                <tr class="services__table-item--row">
+                                    <td class="services__table-item--info">Консультация юриста</td>
+                                    <td class="services__table-item--price">бесплатно</td>
+                                </tr>                      
+                            </table>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <section class="wow animate__animated animate__fadeInUp services__price">
+                <div class="container">
+                    <div class="services__price-container">
+                        <h4 class="services__price-title"> Цены на юридические услуги</h4>
+                        <h5 class="services__price-subtitle">Вся справочная информация по телефону предоставляется <b>бесплатно</b></h5>
+                        <p class="services__price-information">Каждый отдельный случай обращения за адвокатской помощью рассматривается индивидуально, по договоренности.
+                            Гонорар адвоката определяется с учетом сложности дела, объема работы, а также материального положения клиента.</p>
+                    </div>
+                    <div class="services__price-items">
+                        <div class="services__price-item">
+                            <h4 class="services__price-item--title">Каждый юрист имеет чёткую специализацию</h4>
+                            <p class="services__price-item--descr">Узкая специализация подразумевает, что адвокат прекрасно изучил тему и знает сотни прецедентов, похожих на ваш случай.</p>
+                        </div>
+
+                        <div class="services__price-item">
+                            <h4 class="services__price-item--title">В приоритете адвокатов – досудебное решение вопросов</h4>
+                            <p class="services__price-item--descr">Если интересы клиента можно защитить без суда, то наши специалисты приложат все усилия, для того чтобы достичь этого. Если вопрос не получается решить без суда, то судебные издержки (в том числе оплата услуг адвоката) включаются в сумму иска.</p>
+                        </div>
+
+                        <div class="services__price-item">
+                            <h4 class="services__price-item--title">Для нас не бывает слишком простых или слишком сложных дел</h4>
+                            <p class="services__price-item--descr">Юристы одинаково ответственно подходят и к делам о расторжении брака, и о взыскании компенсации за моральный вред, и о восстановлении права на собственность и т.д</p>
+                        </div>
+
+                        <div class="services__price-item">
+                            <h4 class="services__price-item--title">Предоставляем клиентам детальную информацию о ходе дела</h4>
+                            <p class="services__price-item--descr">Каждый свой шаг юристы объясняют клиентам. Это значит, что никто не будет действовать за вашей спиной.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wow animate__animated animate__fadeInUp terms">
+                <div class="container">
+                    <h2 class="terms__title">Условия предоставления услуг</h2>
+                    <h3 class="terms__warning">
+                        Обратите внимание, что окончательная стоимость обсуждается с клиентом и может отличаться для каждого конкретного случая. Стоимость может быть как выше, так и ниже указанной на сайте. Наша ценовая политика направлена на оптимизацию расходов клиентов.
+                    </h3>
+                    <div class="terms__box">
+                        <div class="terms__box-circle"></div>
+                        <h4 class="terms__box-title">Наши клиенты часто спрашивают: почему существует такой разброс цен?</h4>
+                        <p class="terms__box-warning">
+                            Обратите внимание, что именно входит в стоимость услуги в разных фирмах города (консультация, оформление бумаг, представление в суде). В нашей компании, как правило, ориентировочная сумма в прайсе уже включает расходы на ведение дела.
+                        </p>
+                    </div>
+                    <div class="terms__work">
+                        <h2 class="terms__work-title">Выстраиваем работу с максимальной выгодой для вас:</h2>   
+                        <div class="terms__items">
+                            <h5 class="terms__descr">
+                                <b>Бесплатно</b> предоставляем справочную информацию по телефону
+                            </h5>
+                            <h5 class="terms__descr">
+                                Предлагаем наличный или безналичный расчёт
+                            </h5>
+                            <h5 class="terms__descr">
+                                Соглашаемся на оплату услуг юристов в рассрочку
+                            </h5>
+                            <h5 class="terms__descr">
+                                Проводим акции на популярные услуги и представляем антикризисные предложения
+                            </h5>
+                            <h5 class="terms__descr">
+                                Вы всегда понимаете, что входит в стоимость услуг
+                            </h5>
+                        </div>                     
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="wow animate__animated animate__fadeInUp questions">
+                <div class="container">
+                    <div class="questions__box">
+                        <h3 class="questions__title">Возник вопрос по стоимости услуг юристов?</h3>
+                        <p class="questions__subtitle">Задайте его прямо сейчас:</p>
+                        <a href="tel:+79821592105" class="questions__number">8 982 159 21 05</a>
+                        <button class="btn questions__btn information__btn">Обратный звонок</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+        <footer class="wow animate__animated animate__fadeInUp footer" id="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <div class="footer__logo-img">
+                            <img src="icons/logo_white.svg" alt="Логотип сайта">                                
+                        </div>
+                        <div class="footer__logo-name">Юридическая <br>консультация</div>
+                    </div>
+                    <div class="footer__connection">
+                        <div class="footer__connection-items">
+                            <a href="https://vk.com/nvlaw" class="footer__connection-item">
+                                <div class="footer__connection-icon">
+                                    <img src="icons/vk-white.svg" alt="логотип ВК">
+                                </div>
+                                <span class="footer__connection-info">Мы в Вконтакте</span>
+                            </a>
+                        </div>
+                        <div class="footer__connection-items">
+                            <a href="https://yandex.ru/maps/org/yuridicheskaya_pomoshch/234571748160/?ll=76.574434%2C60.930905&z=17" class="footer__connection-item">
+                                <div class="footer__connection-icon">
+                                    <img src="icons/maps-white.svg" alt="Геолокация">
+                                </div>
+                                <span class="footer__connection-info">Адрес: г. Нижневартовск, ул. Мусы Джалиля 9</span>
+                            </a>
+                        </div>
+                        <div class="footer__connection-items">
+                            <a href="tel:+79821592105" class="footer__connection-item">
+                                <div class="footer__connection-icon">
+                                    <img src="icons/phone-white.svg" alt="Телефон">
+                                </div>
+                                <span class="footer__connection-info">8 982 159 21 05</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__maps">
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/yuridicheskaya_pomoshch/234571748160/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Юридическая помощь</a><a href="https://yandex.ru/maps/1091/nizhnevartovsk/category/legal_services/184105630/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Юридические услуги в Нижневартовске</a><a href="https://yandex.ru/maps/1091/nizhnevartovsk/category/registration_and_liquidation_of_enterprises/184105626/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Регистрация и ликвидация предприятий в Нижневартовске</a><iframe src="https://yandex.ru/map-widget/v1/org/yuridicheskaya_pomoshch/234571748160/?ll=76.574434%2C60.930905&z=17" width="100%" height="600px" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/wow.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

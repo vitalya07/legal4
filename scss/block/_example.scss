@@ -1,0 +1,42 @@
+.examples {
+    padding: 60px 0;
+    &__back {
+        margin-bottom: 60px;
+        display: block;
+    }
+    &__title {
+        margin-bottom: 60px;
+    }
+    &__img {
+        max-width: 400px;
+        height: 300px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__information {
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+.examples__image {
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    &-img {
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
